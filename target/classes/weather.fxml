@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<VBox alignment="TOP_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.usanov.fx.FxApp">
+    <padding>
+        <Insets top="20.0"/>
+    </padding>
+    <TextField fx:id="city"/>
+    <Button text="Search" onAction="#onHelloButtonClick"/>
+    <Label fx:id="name"/>
+    <Label fx:id="temp"/>
+    <Label fx:id="max_temperature"/>
+    <Label fx:id="min_temperature"/>
+    <Label fx:id="feelsLike"/>
+    <Label fx:id="description"/>
+    <Label fx:id="humidity"/>
+    <Label fx:id="pressure"/>
+    <Label fx:id="wind"/>
+</VBox>
